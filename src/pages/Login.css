@@ -1,0 +1,73 @@
+.login-page {
+  background-color: #6cc5cb;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body{
+  background-color: #6cc5cb;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.login-page .login-container {
+  background: white;
+  padding: 55px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.login-page .login-container p {
+  color: #989898;
+  text-align: center;
+}
+
+.login-page label {
+  color: #2e8c93;
+}
+
+.login-page .login-container input[type="text"],
+.login-page .login-container input[type="password"] {
+  width: 90%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-page .login-container button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #6cc5cb;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.login-page .login-container button:hover {
+  background-color: #3dd0db;
+}
+
+.login-page .login-container a {
+  display: block;
+  margin-top: 1rem;
+  text-align: right;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.login-page .logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 100px;
+  border-radius: 10px;
+}

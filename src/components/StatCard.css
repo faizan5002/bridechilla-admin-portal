@@ -1,0 +1,33 @@
+.stat-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+  }
+  .stat-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    background-color: rgb(230, 222, 222);
+
+  }
+  
+  .stat-card h3 {
+    font-size: 1 rem;
+    margin-bottom: 10px;
+    color: #333;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+  }
+  .icon{
+    width:25%;
+  }
+  .stat-card p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #6cc5cb;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin:auto;
+  }
+  
